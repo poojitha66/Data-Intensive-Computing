@@ -1,0 +1,98 @@
+# -*- coding: utf-8 -*-
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+/* Button styles */
+.btn {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    padding: 4px 10px 4px;
+    margin-bottom: 0;
+    font-size: 13px;
+    line-height: 18px;
+    color: #333333;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    vertical-align: middle;
+    background-color: #f5f5f5;
+    /* ... other button styles ... */
+}
+
+/* Primary button */
+.btn-primary,
+.btn-primary:hover {
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+    /* ... other primary button styles ... */
+}
+
+.btn-primary.active {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.btn-primary {
+    background-color: #4a77d4;
+    /* ... other primary button styles ... */
+}
+
+/* Body styles with background image */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('https://t4.ftcdn.net/jpg/05/92/14/71/360_F_592147124_dtOyoQzADBP1RZeXWMQbdIwJUw01HRY6.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Container styles */
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/* Heading styles */
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Input styles */
+input[type="text"],
+select,
+button {
+    margin: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 200px;
+}
+
+/* General button styles */
+.btn {
+    background-color: #4a77d4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+/* Button hover effect */
+.btn:hover {
+    background-color: #3562bc;
+}
+
+/* Prediction result styles */
+.prediction-result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
