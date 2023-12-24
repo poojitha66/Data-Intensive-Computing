@@ -3,6 +3,10 @@
 #### Problem Statement
 The diamond market lacks precision in pricing, leading to inefficiencies. Our goal is to predict diamond prices accurately based on attributes like cut, color, clarity, carat, table, x, y, and z to address this inconsistency.
 
+
+![](image/diamondimage.jpg)
+
+
 #### Background
 Assessing diamond attributes is subjective, creating challenges in evaluation. Consumers lack comprehensive education, relying on retailer-provided data, which might not be impartial. Accurate pricing benefits both buyers and sellers.
 
@@ -28,6 +32,8 @@ We've built a web application for diamond price prediction. This user-friendly i
 
 #### Dataset Overview
 The dataset contains nearly 54,000 diamonds with attributes like price, carat weight, cut quality, color, clarity, and dimensional features (x, y, z). 
+
+![](image/Blog_diamond_GRADING.jpg)
 
 #### Machine Learning
 We've explored regression and classification techniques on this dataset.
